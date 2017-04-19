@@ -1,4 +1,7 @@
-# test coverage for  [react-grid-layout (v0.14.4)](https://github.com/STRML/react-grid-layout)  [![npm package](https://img.shields.io/npm/v/npmtest-react-grid-layout.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-grid-layout) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-grid-layout.svg)](https://travis-ci.org/npmtest/node-npmtest-react-grid-layout)
+# npmtest-react-grid-layout
+
+#### basic test coverage for  [react-grid-layout (v0.14.6)](https://github.com/STRML/react-grid-layout)  [![npm package](https://img.shields.io/npm/v/npmtest-react-grid-layout.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-grid-layout) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-grid-layout.svg)](https://travis-ci.org/npmtest/node-npmtest-react-grid-layout)
+
 #### A draggable and resizable grid layout with responsive breakpoints, for React.
 
 [![NPM](https://nodei.co/npm/react-grid-layout.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-grid-layout)
@@ -42,6 +45,7 @@
     "dependencies": {
         "classnames": "^2.2.5",
         "lodash.isequal": "^4.0.0",
+        "prop-types": "^15.5.8",
         "react-draggable": "^2.1.1",
         "react-resizable": "^1.4.0"
     },
@@ -82,10 +86,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "7d2b664ea7368824a9a4e660ec56c8f8f498cca8",
-        "tarball": "https://registry.npmjs.org/react-grid-layout/-/react-grid-layout-0.14.4.tgz"
+        "shasum": "855e83297b0179f1a13b4ea3d4949420cacad735",
+        "tarball": "https://registry.npmjs.org/react-grid-layout/-/react-grid-layout-0.14.6.tgz"
     },
-    "gitHead": "d921125b2b25ae0a1a16a336450fa67fbfd94a98",
+    "gitHead": "3eb777d68d04f0389857be22dcb2c9df4fa531fc",
     "homepage": "https://github.com/STRML/react-grid-layout",
     "keywords": [
         "react",
@@ -129,7 +133,7 @@
         "test": "make test",
         "validate": "npm ls"
     },
-    "version": "0.14.4"
+    "version": "0.14.6"
 }
 ```
 
